@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Domain", "Helix.Domain\Helix.Domain.csproj", "{FDD23DA2-0B7A-4955-93F4-4262BFBCF454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Persistence", "Helix.Persistence\Helix.Persistence.csproj", "{6A08FE7A-ED02-4F34-BA64-30C8042285D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Application", "Helix.Application\Helix.Application.csproj", "{D375CC27-2850-443E-AF59-BAC48BD05E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.WebApi", "Helix.WebApi\Helix.WebApi.csproj", "{D65D91B0-0954-4F27-B2C9-CE3181986136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F7EFE09-E088-4728-8C3D-8B5DF07DA4FE}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD23DA2-0B7A-4955-93F4-4262BFBCF454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD23DA2-0B7A-4955-93F4-4262BFBCF454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD23DA2-0B7A-4955-93F4-4262BFBCF454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD23DA2-0B7A-4955-93F4-4262BFBCF454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A08FE7A-ED02-4F34-BA64-30C8042285D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A08FE7A-ED02-4F34-BA64-30C8042285D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A08FE7A-ED02-4F34-BA64-30C8042285D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A08FE7A-ED02-4F34-BA64-30C8042285D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D375CC27-2850-443E-AF59-BAC48BD05E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D375CC27-2850-443E-AF59-BAC48BD05E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D375CC27-2850-443E-AF59-BAC48BD05E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D375CC27-2850-443E-AF59-BAC48BD05E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65D91B0-0954-4F27-B2C9-CE3181986136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65D91B0-0954-4F27-B2C9-CE3181986136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65D91B0-0954-4F27-B2C9-CE3181986136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65D91B0-0954-4F27-B2C9-CE3181986136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
