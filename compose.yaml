@@ -1,0 +1,24 @@
+﻿name: helix
+
+services:
+  helix.webapi:
+    image: helix.webapi
+    build:
+      context: .
+      dockerfile: Helix.WebApi/Dockerfile
+      
+  db:
+    image: postgres:18
+    container_name: pg-container
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  
+volumes:
+  pgdata:
+
